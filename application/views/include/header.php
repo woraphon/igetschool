@@ -17,6 +17,8 @@
 	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/style.css" type="text/css" media="screen">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script src="<?php echo base_url()?>assets/js/bootstrap.min.js"></script>
+    
     
     <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.appear.js"></script>
 	<script type="text/javascript" src="<?php echo base_url()?>assets/js/count-to.js"></script>	
@@ -24,8 +26,3 @@
 	<script type="text/javascript" src="<?php echo base_url()?>assets/js/script.js"></script>
 </head>
 <body>
-
-
-
-</body>
-</html>

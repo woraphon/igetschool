@@ -1,8 +1,10 @@
 <?php
    $this->view('include/header');
    $this->view('include/navbar');
+   //$this->view('include/slide');
 ?>   
 	<div class="container">
+	<?php $this->view('include/slide');?>
 <div class="row">
 
 		<!-- main content -->
@@ -47,19 +49,13 @@
 				</div>
 			</div>
 			</div>
-			
+		<!-- Tab Update -->	
 		<div class="panel panel-danger">
  		<!-- Default panel contents -->
   		<div class="panel-heading">Panel heading</div>
   		<div class="panel-body">
   			<div class="col-md-12">
-  				<div class="">
-        		<ul class="nav nav-tabs">
-  					<li role="presentation" class="active"><a href="#">Home</a></li>
-  					<li role="presentation"><a href="#">Profile</a></li>
-  					<li role="presentation"><a href="#">Messages</a></li>
-				</ul>
-        		</div>
+  				<?php $this->view('include/tab');?>
   			</div>
   			<div class="col-md-12">
   				<div class="jumbotron">
@@ -70,6 +66,35 @@
   		</div>
   		</div>
   		
+  		<!-- New ข่าวส่าร ราคาน้ำมัน ราคาทอง อัตราแลกเปลียน -->
+		<div class="panel panel-info">
+  		<!-- Default panel contents -->
+  		<div class="panel-heading">New</div>
+  		<div class="panel-body">
+  			<!-- อัตราแลกเปลียน -->
+    		<div class="row">
+  			<div class="col-xs-6 col-md-4">
+  				<div class="thumbnail">
+  				....
+  				</div>
+  			</div>			
+			<!-- ราคาน้ำมัน -->    		
+  			<div class="col-xs-6 col-md-4">
+  				<div class="thumbnail">
+   	 			...
+   	 			</div>
+  			</div>			
+			<!-- ราคาทองคำ -->    		
+  			<div class="col-xs-6 col-md-4">
+  				<div class="thumbnail">
+   	 			....  				
+   	 			</div>
+  			</div>
+			</div>
+  		</div>
+		</div>
+  		
+  		<!-- webboard -->
   		<div class="panel panel-danger">
   		<!-- Default panel contents -->
   		<div class="panel-heading">Webboard</div>
@@ -88,18 +113,18 @@
 		</div>
   		
       	</div>
-      	 
+ <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------- -->     	 
       	
       	<!-- right content -->
       	 		
   		<div class="col-md-4">
-  			<div class="col-md-12">
+  			<div class="">
 			<div class="panel panel-danger">
  			<!-- Default panel contents -->
   			<div class="panel-heading">Category</div>
   			<div class="panel-body"> 				
 			<div class="list-group">
-  				<a href="#" class="list-group-item active"><span class="badge">14</span>PHP Framework</a>
+  				<a href="#" class="list-group-item"><span class="badge">14</span>PHP Framework</a>
   				<a href="#" class="list-group-item"><span class="badge">6</span>JQuery</a>
   				<a href="#" class="list-group-item"><span class="badge">8</span>Codeigniter</a>
   				<a href="#" class="list-group-item"><span class="badge">16</span>HTML</a>
@@ -110,11 +135,11 @@
   				<div class="thumbnail">
         		<!-- 16:9 aspect ratio -->
 					<div class="embed-responsive embed-responsive-16by9">
-  						<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/4eWfRjyp2Nc?autoplay=1;loop=1" frameborder="1" allowfullscreen></iframe>
+  						<iframe class="embed-responsive-item" width="100%" height="100%" src="https://www.youtube.com/embed/4eWfRjyp2Nc?autoplay=0" frameborder="1" allowfullscreen></iframe>
 					</div>
         		</div>
   			</div>
-      		<div class="col-md-12">
+      		<div class="">
       		<div class="panel panel-default">
   				<div class="panel-heading">Panel heading without title</div>
   				<div class="panel-body">

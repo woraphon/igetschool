@@ -8,7 +8,7 @@ class main extends CI_Controller{
 	
 	function index(){
 		
-		$this->load->view('main/home');
+		$this->load->view('page/home/home');
 	}
 	
 }

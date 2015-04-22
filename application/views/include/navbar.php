@@ -17,21 +17,23 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tutorial<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">#</a></li>
-                <li><a href="#">#</a></li>
-                <li><a href="#">#</a></li>
+                <li><a href="<?php echo site_url('menu/html');?>">VDO Tutorial HTML</a></li>
+                <li class="divider"></li>               
+                <li><a href="<?php echo site_url('menu/php');?>">VDO Tutorial PHP</a></li>
+                <li class="divider"></li>                
+                <li><a href="<?php echo site_url('menu/csss');?>">VDO Tutorial CSS</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header"></li>
-                <li><a href="#">#</a></li>
-                <li><a href="#">#</a></li>
               </ul>
             </li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="<?php echo site_url('menu/login');?>">Log In</a></li>
-            <li><a href="<?php echo site_url('menu/register');?>">Register</a></li>
+          <div class="nav navbar-nav navbar-right">
+          	<button type="button" class="btn btn-info " data-toggle="modal" data-target="#login"> Login </button>
+            	<?php $this->view('page/login/form_login');?>
+            <button type="button" class="btn btn-info " data-toggle="modal" data-target="#register"> register </button>
+             <?php $this->view('page/register/form_register');?>
             
-          </ul>
+            
+          </div>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
