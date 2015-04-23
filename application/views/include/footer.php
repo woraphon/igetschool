@@ -1,3 +1,33 @@
+	<div class="panel panel-default">  		
+  		<div class="panel-footer">
+  		<!-- open footer -->
+  		
+  			<div class="row">
+  				
+  				<div class="col-md-4">
+  				<div class="jumbotron">
+        		   <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        		</div>
+  				</div>
+  				<div class="col-md-4">
+  				<div class="jumbotron">
+        		   <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        		</div>
+  				</div>
+  				<div class="col-md-4">
+  				<div class="jumbotron">
+        		   <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        		</div>
+  				</div>
+  			
+  			</div>
+  		
+  		<!-- close footer -->
+  		</div>
+	</div>
+	
+</div>	<!-- close container -->
+
 	<!-- Go To Top Link -->
 	<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 

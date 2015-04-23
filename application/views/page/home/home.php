@@ -10,9 +10,10 @@
 		<!-- main content -->
 		
       	<div class="col-md-8">
+      	<!-- open Update -->
       	<div class="panel panel-info">
  		 <!-- Default panel contents -->
-  		<div class="panel-heading">Panel heading</div>
+  		<div class="panel-heading">Update! ข่าวสาร</div>
   		<div class="panel-body">
         		<div class="row">
   					<div class="col-sm-6 col-md-4">
@@ -49,6 +50,7 @@
 				</div>
 			</div>
 			</div>
+			<!-- close update  -->
 		<!-- Tab Update -->	
 		<div class="panel panel-danger">
  		<!-- Default panel contents -->
@@ -170,7 +172,7 @@
       	</div>
      </div>
 	
-</div>
+
    
    
  <?php  $this->view('include/footer');

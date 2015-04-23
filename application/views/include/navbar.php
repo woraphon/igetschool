@@ -21,7 +21,7 @@
                 <li class="divider"></li>               
                 <li><a href="<?php echo site_url('menu/php');?>">VDO Tutorial PHP</a></li>
                 <li class="divider"></li>                
-                <li><a href="<?php echo site_url('menu/csss');?>">VDO Tutorial CSS</a></li>
+                <li><a href="<?php echo site_url('menu/css');?>">VDO Tutorial CSS</a></li>
                 <li class="divider"></li>
               </ul>
             </li>
