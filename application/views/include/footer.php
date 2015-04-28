@@ -6,17 +6,17 @@
   				
   				<div class="col-md-4">
   				<div class="jumbotron">
-        		   <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        		   <p>To see .</p>
         		</div>
   				</div>
   				<div class="col-md-4">
   				<div class="jumbotron">
-        		   <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        		   <p>To see .</p>
         		</div>
   				</div>
   				<div class="col-md-4">
   				<div class="jumbotron">
-        		   <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        		   <p>To see .</p>
         		</div>
   				</div>
   			

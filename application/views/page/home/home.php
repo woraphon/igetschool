@@ -4,8 +4,10 @@
    //$this->view('include/slide');
 ?>   
 	<div class="container">
+<div class="bghome">
 	<?php $this->view('include/slide');?>
 <div class="row">
+
 
 		<!-- main content -->
 		
@@ -171,6 +173,7 @@
   			</div>
       	</div>
      </div>
+    </div>
 	
 
    

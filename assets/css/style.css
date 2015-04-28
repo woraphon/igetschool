@@ -180,3 +180,11 @@
   }	
 	
 	}
+
+.bghome{
+	padding-right:0px;
+	padding-left:0px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#F7F8E0;
+}
