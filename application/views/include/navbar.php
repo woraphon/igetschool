@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php echo base_url();?>index.php/menu/home">iGetSchool.com</a>
+          <a class="navbar-brand" href="<?php echo base_url();?>index.php/menu/home">Design2House.com</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
